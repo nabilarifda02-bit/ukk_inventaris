@@ -53,5 +53,5 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['default_controller'] = 'dashboard';
-$route['barang/hapus/(:num)'] = 'barang/hapus$1';
-$route['pinjam/balik/(:num)'] = 'pinjam/balik$1';
+$route['pinjam/kembali/(:num)'] = 'pinjam/kembali/$1';
+$route['barang/hapus/(:num)'] = 'barang/hapus/$1';
