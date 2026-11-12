@@ -25,4 +25,5 @@ class M_barang extends CI_Model {
     function hapus($id){
         $this->db->delete('barang', array('id'=>$id));
     }
+    
 }

@@ -24,7 +24,10 @@
 
 </div><!-- content -->
 </div><!-- wrapper -->
+<script src="<?= base_url('assets/css/main.css') ?>"></script>
+<script src="<?= base_url('assets/images') ?>"></script>
 <script src="<?= base_url('assets/libs/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script src="<?= base_url('assets/libs/bootstrap/css/bootstrap.min.css') ?>"></script>
 <script src="<?= base_url('assets/js/dashboard.js') ?>"></script>
 </body>
 </html>
