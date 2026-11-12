@@ -5,6 +5,7 @@
 <form method="post" action="<?= base_url('barang/tambah') ?>">
     Nama : <input type="text" name="nama" required><br><br>
     Stok : <input type="number" name="stok" required><br><br>
+    lokasi : <input type="text" name="lokasi" required><br><br>
    <button type="submit" name="simpan" value="1">simpan</button>
 </form>
 

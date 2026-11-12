@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Inventaris</title>
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+    <script src="<?= base_url('assets/libs/bootstrap/js/bootstrap.bootstrap.min') ?>"></script>
+    <link rel="stylesheet" href="<?= base_url('assets/css/main.css') ?>">
 </head>
 <body>
 

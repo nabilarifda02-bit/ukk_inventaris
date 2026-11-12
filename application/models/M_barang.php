@@ -12,7 +12,9 @@ class M_barang extends CI_Model {
       function tambah($nama, $stok){
     $this->db->insert('barang', array(
         'nama' => $nama,
-        'stok' => $stok
+        'stok' => $stok,
+        'id'   => $id,
+        'lokasi'   => $lokasi
     ));
 }
 

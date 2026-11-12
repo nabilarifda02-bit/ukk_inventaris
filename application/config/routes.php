@@ -55,3 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['default_controller'] = 'dashboard';
 $route['pinjam/kembali/(:num)'] = 'pinjam/kembali/$1';
 $route['barang/hapus/(:num)'] = 'barang/hapus/$1';
+$route['lokasi/(:num)'] = 'lokasi/$1';

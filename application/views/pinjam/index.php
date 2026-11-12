@@ -22,7 +22,7 @@
 <hr>
 
 <table border="1" cellpadding="5">
-    <tr><th>Nama</th><th>Barang</th><th>Jumlah</th><th>Status</th><th></th></tr>
+    <tr><th>Nama</th><th>Barang</th><th>Jumlah</th><th>Id</th><th>Status</th><th></th></tr>
     <?php foreach($list_pinjam as $p): ?>
     <tr>
         <td><?= $p['nama_peminjam'] ?></td>
@@ -42,6 +42,7 @@
 
 </div><!-- content -->
 </div><!-- wrapper -->
-<script src="<?= base_url('assets/js/script.js') ?>"></script>
+<script src="<?= base_url('assets/libs/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/dashboard.js') ?>"></script>
 </body>
 </html>

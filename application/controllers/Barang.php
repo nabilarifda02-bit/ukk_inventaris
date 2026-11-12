@@ -15,7 +15,9 @@ class Barang extends CI_Controller {
     if($this->input->method() === 'post'){
         $this->M_barang->tambah(
             $this->input->post('nama'),
-            $this->input->post('stok')
+            $this->input->post('stok'),
+            $this->input->post('id'),
+            $this->input->post('lokasi')
         );
         redirect('barang');
     }
@@ -24,6 +26,10 @@ class Barang extends CI_Controller {
 
     function hapus($id){
         $this->M_barang->hapus($id);
+        redirect('barang');
+    }
+     function edit($id){
+        $this->M_barang->edit($id);
         redirect('barang');
     }
 }
